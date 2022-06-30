@@ -1,80 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <div class="text-bg-primary">
-    <div class="d-none d-sm-flex mx-auto p-1 align-items-center" style="max-width:600px">
-    <span class="me-auto h2">Facebook</span>
-      <div class="d-flex gap-2">
-        <span>Profile</span>
-        <span>Setting</span>
-        <span>logout</span>
-      </div>
-    </div>
-    <div class="h2 text-center d-block d-sm-none">Facebook</div>
-  </div>
-  
-  <div class="mx-auto px-2" style="max-width :600px">
-    <div class="border border-2 rounded-3 p-2 vstack gap-2">
-      <div class="gap-3">
-        <img 
-          class="rounded-circle"
-          src="/images/supa1.JPG"
-          height="50"
-          width="50"
-          role="presentation"
-          style="object-fit: cover"/>
-        <span class="fw-bold">น้อนสุคนดีคนเดิม</span>
-      </div>
-      <span>หิวจัดช่วงนี้!</span>
-      <span class="text-muted">
-      <span>👍50k</span>
-
-      <hr class="my-10" />
-      <div class="d-flex">
-        <img 
-          class="rounded-circle"
-          src="/images/tan1.JPG"
-          height="50"
-          width="50"
-          role="presentation"
-          style="object-fit: cover"/>
-        <div style="background-color:lightgray" class="d-flex flex-column p-2 rounded-3">
-          <span class="fw-bold">แทนน้อยหำน้อย</span>
-          <span> หิวข้าวหรอ?</span>
-          <span>👍5k</span>
+  <body>
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
         </div>
       </div>
-
-      <div class="d-flex ms-5 my-1">
-        <img 
-          class="rounded-circle"
-          src="/images/supa1.JPG"
-          height="50"
-          width="50"
-          role="presentation"
-          style="object-fit: cover"/>
-        <div style="background-color:lightgray" class="d-flex flex-column p-2 rounded-3">
-          <span class="fw-bold">น้อนสุคนดีคนเดิม</span>
-          <span> หิวจัดช่วงนี้!</span>
-          <span>👍5k</span>
-        </div>
-      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
